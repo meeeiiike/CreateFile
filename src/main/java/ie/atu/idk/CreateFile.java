@@ -12,7 +12,16 @@ public class CreateFile {
         File myFile = new File("MyFile1.txt");
         System.out.println("My file is located at " + myFile.getAbsolutePath());
 
-        FileWriter outputFile = new FileWriter("MyFile1.txt", true);
+        try{
+            FileWriter outputFile = new FileWriter("MyFile1.txt", true);
+            outputFile.write("it's 2 am :( ");
+            outputFile.close();
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
+
+
 
     }
 
