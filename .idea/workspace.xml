@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="try catch with some methods attached to the object">
+    <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="New PrintWriter Constructor, and combining this with the FileWriter Constructor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/idk/CreateFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/idk/CreateFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +54,7 @@
     "Application.CreateFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature1",
+    "git-widget-placeholder": "using-combined-constructors",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729383735552</updated>
-      <workItem from="1729383736439" duration="3203000" />
+      <workItem from="1729383736439" duration="4623000" />
     </task>
     <task id="LOCAL-00001" summary="START">
       <option name="closed" value="true" />
@@ -106,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729386491205</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New PrintWriter Constructor, and combining this with the FileWriter Constructor">
+      <option name="closed" value="true" />
+      <created>1729387118891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729387118891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +125,8 @@
     <MESSAGE value="START" />
     <MESSAGE value="Created file and object outputFile" />
     <MESSAGE value="try catch with some methods attached to the object" />
-    <option name="LAST_COMMIT_MESSAGE" value="try catch with some methods attached to the object" />
+    <MESSAGE value="New PrintWriter Constructor, and combining this with the FileWriter Constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="New PrintWriter Constructor, and combining this with the FileWriter Constructor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

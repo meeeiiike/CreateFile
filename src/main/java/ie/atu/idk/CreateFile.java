@@ -5,18 +5,19 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.*;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class CreateFile {
 
     public static void main(String[] args)throws IOException {
-
         // Creating new file named "MyFile.txt "
         File myFile = new File("MyFile1.txt");
+        File myFile2 = new File("MyFile2.txt");
         System.out.println("My file is located at " + myFile.getAbsolutePath());
 
-        try{ //creating outputFile, which we can add to the .txt from here
+        // Creating outputFile, which we can add to the .txt from here
+        try{
             FileWriter outputFile = new FileWriter("MyFile1.txt", true);
-            outputFile.write("it's 2 am :( ");
             outputFile.close(); // always close after
         }catch(IOException e){
             e.printStackTrace();
@@ -30,7 +31,12 @@ public class CreateFile {
         outputFile.close();
 
         // These two Constructors can be combined!
-        PrintWriter outputFile1 = new PrintWriter(new FileWriter("MyFile1.txt", true));
+        //PrintWriter newOutputFile = new PrintWriter(new FileWriter("MyFile2.txt", true));
+        Scanner inputFile = new Scanner (new File(myFile2("MyFile2.txt"));
+        newOutputFile.close();
+        inputFile.nextLine();
+        String fileToString = inputFile.nextLine();
+        inputFile.close();
 
 
 
