@@ -11,7 +11,7 @@ public class CreateFile {
 
     public static void main(String[] args)throws IOException {
         // Creating new file named "MyFile.txt "
-        // AHHHHHHHHH
+        // AHHHHHHHHHh
         File myFile = new File("MyFile1.txt");
         File myFile2 = new File("MyFile2.txt");
         File myFile3 = new File("MyFile3.txt");
