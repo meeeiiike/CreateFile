@@ -13,38 +13,44 @@ public class CreateFile {
         // Creating new file named "MyFile.txt "
         File myFile = new File("MyFile1.txt");
         File myFile2 = new File("MyFile2.txt");
+        File myFile3 = new File("MyFile3.txt");
+        File myFile4 = new File("MyFile4.txt");
+
         System.out.println("My file is located at " + myFile.getAbsolutePath());
         System.out.println("My file is located at " + myFile2.getAbsolutePath());
-
+        System.out.println("My file is located at " + myFile3.getAbsolutePath());
+        System.out.println("My file is located at " + myFile4.getAbsolutePath());
 
         // Creating outputFile, which we can add to the .txt from here
-        try{
+        // intellijs magic ai :))))))))
+        FileWriter outputFile3 = null;
+        try {
             FileWriter outputFile = new FileWriter("MyFile1.txt", true);
             FileWriter outputFile2 = new FileWriter("MyFile2.txt", true);
+            outputFile3 = new FileWriter("MyFile3.txt", true);
             outputFile.write("What day is it?");
             outputFile2.write("chewsday innit");
             outputFile.write("oh ok");
             outputFile.close(); // always close after
             outputFile2.close(); // always close after
-        }catch(IOException e){
+        } catch (IOException e) {
+            e.getMessage();
             e.printStackTrace();
         }
 
         // Adding the PrintWriter Constructor,
         // which allows us to add text to the file,
         // using println methods like usual
-        PrintWriter outputFile = new PrintWriter("MyFile1.txt");
-        outputFile.println("hahahahahahahahahahahhahahahahahahahahahahahahahaha");
-        outputFile.close();
+
+        // Now append method is working properly, just had to initialise outputFile3 in scope
+        PrintWriter longwayofappending = new PrintWriter(outputFile3);
+        longwayofappending.println("Hello World!");
+        longwayofappending.close();
 
         // These two Constructors can be combined!
-        //PrintWriter newOutputFile = new PrintWriter(new FileWriter("MyFile2.txt", true));
-        Scanner inputFile = new Scanner (new File(myFile2("MyFile2.txt"));
-        newOutputFile.close();
-        inputFile.nextLine();
-        String fileToString = inputFile.nextLine();
-        inputFile.close();
-
+        PrintWriter OutputFile4 = new PrintWriter(new FileWriter("MyFile4.txt", true));
+        OutputFile4.println("wassupppp!");
+        OutputFile4.close();
 
 
     }
