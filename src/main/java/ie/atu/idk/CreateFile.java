@@ -14,11 +14,18 @@ public class CreateFile {
         File myFile = new File("MyFile1.txt");
         File myFile2 = new File("MyFile2.txt");
         System.out.println("My file is located at " + myFile.getAbsolutePath());
+        System.out.println("My file is located at " + myFile2.getAbsolutePath());
+
 
         // Creating outputFile, which we can add to the .txt from here
         try{
             FileWriter outputFile = new FileWriter("MyFile1.txt", true);
+            FileWriter outputFile2 = new FileWriter("MyFile2.txt", true);
+            outputFile.write("What day is it?");
+            outputFile2.write("chewsday innit");
+            outputFile.write("oh ok");
             outputFile.close(); // always close after
+            outputFile2.close(); // always close after
         }catch(IOException e){
             e.printStackTrace();
         }
