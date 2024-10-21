@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="WIP: writing to two files using file writer class" />
+    <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +51,7 @@
     "Application.CreateFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature1",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729540955316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve">
+      <option name="closed" value="true" />
+      <created>1729544249148</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729544249148</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +150,8 @@
     <MESSAGE value="New PrintWriter Constructor, and combining this with the FileWriter Constructor" />
     <MESSAGE value="WIP:" />
     <MESSAGE value="WIP: writing to two files using file writer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP: writing to two files using file writer class" />
+    <MESSAGE value="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve" />
+    <option name="LAST_COMMIT_MESSAGE" value="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
