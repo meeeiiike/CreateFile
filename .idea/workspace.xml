@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="WIP: writing to two files using file writer class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/idk/CreateFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/idk/CreateFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

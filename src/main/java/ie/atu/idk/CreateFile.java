@@ -51,8 +51,5 @@ public class CreateFile {
         PrintWriter OutputFile4 = new PrintWriter(new FileWriter("MyFile4.txt", true));
         OutputFile4.println("wassupppp!");
         OutputFile4.close();
-
-
     }
-
 }
