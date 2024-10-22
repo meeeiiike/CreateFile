@@ -29,9 +29,9 @@ public class CreateFile {
             FileWriter outputFile = new FileWriter("MyFile1.txt", true);
             FileWriter outputFile2 = new FileWriter("MyFile2.txt", true);
             outputFile3 = new FileWriter("MyFile3.txt", true);
-            outputFile.write("What day is it?");
-            outputFile2.write("chewsday innit");
-            outputFile.write("oh ok");
+            outputFile.write("What day is it?\n");
+            outputFile2.write("chewsday innit\n");
+            outputFile.write("oh ok\n");
             outputFile.close(); // always close after
             outputFile2.close(); // always close after
         } catch (IOException e) {

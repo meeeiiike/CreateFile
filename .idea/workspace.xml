@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve" />
+    <list default="true" id="affa833a-9d09-4c5d-87c6-2535978d5ce9" name="Changes" comment="We're back, start of new class ReadingFile where we'll read info from a text file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/idk/ReadingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/idk/ReadingFile.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature1" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,9 +52,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CreateFile.executor": "Run",
+    "Application.ReadingFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Reading-Files",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,6 +84,7 @@
       <updated>1729383735552</updated>
       <workItem from="1729383736439" duration="4803000" />
       <workItem from="1729539943009" duration="3291000" />
+      <workItem from="1729624315039" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="START">
       <option name="closed" value="true" />
@@ -137,7 +142,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729544249148</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="IM AN IDIOT: main now set to default....">
+      <option name="closed" value="true" />
+      <created>1729544423730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729544423730</updated>
+    </task>
+    <task id="LOCAL-00009" summary="IM AN IDIOT: main now set to default....">
+      <option name="closed" value="true" />
+      <created>1729544479126</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729544479126</updated>
+    </task>
+    <task id="LOCAL-00010" summary="We're back, start of new class ReadingFile where we'll read info from a text file">
+      <option name="closed" value="true" />
+      <created>1729544663886</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729544663886</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +180,9 @@
     <MESSAGE value="WIP:" />
     <MESSAGE value="WIP: writing to two files using file writer class" />
     <MESSAGE value="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve" />
-    <option name="LAST_COMMIT_MESSAGE" value="IM AN IDIOT: forgot initial commit to set main as default branch on github, hopefully can resolve" />
+    <MESSAGE value="IM AN IDIOT: main now set to default...." />
+    <MESSAGE value="We're back, start of new class ReadingFile where we'll read info from a text file" />
+    <option name="LAST_COMMIT_MESSAGE" value="We're back, start of new class ReadingFile where we'll read info from a text file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
